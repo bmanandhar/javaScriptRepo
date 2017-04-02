@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <h3>hide / show onclick<h3>
+        <div id="image">
+            <div><img id="caterpillar" src="img/caterpillar.jpg"></div>
+        </div>
+            <button id="button" onclick="hideShow()">show / hide</button>
+<script>
+//JavaScript
+  function hideShow() {
+    var div = document.getElementById("caterpillar");
+  if (div.style.display != "none") {
+    div.style.display = "none";
+}
+  else {
+    div.style.display = "block";
+    }
+  }
+
+</script>
+
+    </body>
+</html>
