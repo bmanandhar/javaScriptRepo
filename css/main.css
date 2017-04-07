@@ -1,22 +1,14 @@
-#image {
-    height: 220px;
-    background-color: transparent;
-}
-
-#caterpillar {
-    border-radius: 15%;
-}
-
 #button {
     background-color: yellow;
-    border: 3px solid black;
+    border: 1px solid black;
     color: black;
-    padding: 5px 8px;
+    padding: 1px 1px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 25%;
+    position: fixed;
 }
