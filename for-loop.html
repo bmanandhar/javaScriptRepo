@@ -1,0 +1,33 @@
+<!DOCTYPE type>
+<html>
+    <body>
+        <script>
+            // create an object
+            var carArray = [
+                {
+                make: "fiat",
+                year: 2014,
+                purchased: false
+                },
+                {
+                make: "benz",
+                year: 2015,
+                purchased: true
+                },
+                {
+                make: "honda",
+                year: 2000,
+                purchased: false
+                }
+            ]
+            for ( i = 0; i <= carArray.length; i++ ) {
+                // if the curent car's year is <= 2014, do this
+                if ( carArray[i].year <=2014 ) {
+                    // console the car data
+                    console.log( carArray.make + " " + carArray[i].year )
+
+                  }
+              }
+        </script>
+    </body>
+</html>
