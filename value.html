@@ -1,0 +1,19 @@
+<!DOCTYPE type>
+<html>
+    <body>
+        <form>
+            <input placeholder="what's your name?" id="user-id">
+            <input placeholder="password" id="pass-id">
+            <button type="button" onclick="getInfo()">Click here</button>
+        </form>
+        <script>
+            function getInfo() {
+                // create 2 variables
+                var username = document.getElementById("user-id").value
+                var password = document.getElementById("pass-id").value
+                // console this for the developer
+                console.log( "your username is " + username + " and your password is " + password )
+            }
+        </script>
+    </body>
+</html>
