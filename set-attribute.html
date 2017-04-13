@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <title>setAttribute</title>
+    </head>
+    <body>
+        <p>Click button to view image</p>
+        <button onclick="myFunction()">
+            ClickView
+        </button>
+        <p id="addHere"></p>
+        <script>
+            function myFunction(){
+                // create a new image tag
+                var newImg = document.createElement("img")
+                // set the image attribute
+                newImg.setAttribute("src", "img/bee.jpg")
+                // get id="addHere" html element and store in as a var
+                var addHere = document.getElementById("addHere")
+                // append the new image to the id="addHere" element
+                addHere.appendChild(newImg)
+            }
+        </script>
+    </body>
+</html>
